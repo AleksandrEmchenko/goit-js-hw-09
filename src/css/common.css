@@ -33,3 +33,31 @@ img {
 .event.busy {
   background: #f64747;
 }
+
+.timer {
+	display: flex;
+	gap: 40px;
+  justify-content: center;
+  
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.value {
+  display: block;
+	font-size: 60px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.label {
+	display: block;
+	font-size: 24px;
+	text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}

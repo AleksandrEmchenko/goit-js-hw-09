@@ -20,6 +20,7 @@ const options = {
   enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
+  minDate: Date.now(),
   minuteIncrement: 1,
   onClose(selectedDates) {
     console.log(selectedDates[0]);
